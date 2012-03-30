@@ -1,0 +1,16 @@
+{
+	"name"                 : "detectify"
+	,"description"         : "Detects the environment where the current script is running: NodeJS or Browser."
+	,"homepage"            : "http://not-up-yet.com"
+	,"keywords"            : ["detection","server","client"]
+	,"author"              : "brec-c"
+	,"engines"             : {"node":"*"}
+	,"licenses"            : [{"type":"MIT","url":"https://github.com/brec-c/detectify/blob/master/LICENSE"}]
+	,"repository"          : {"type":"git", "url": "git://github.com/brec-c/detectify.git"}
+	,"main"                : "index.js"
+	,"version"             : "0.0.1"
+	,"dependencies"        : {}
+	,"devDependencies"     : {
+		"coffee-script"    : "~1.2.0"
+	}
+}
