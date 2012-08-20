@@ -1,8 +1,8 @@
 # Determine environment: NodeJS vs Browser
 hasDetermined = false
-isNodeJS      = false
-isBrowser     = false
-context       = @
+isNodeJS      = undefined
+isBrowser     = undefined
+context       = undefined
 
 determine = (nodeJS = true) ->
 	hasDetermined = true
