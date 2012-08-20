@@ -12,7 +12,7 @@ npm install detectify
 Detectify currently returns an object with 3 properties: hasDetermined, isNodeJS, and isBrowser.  All of these are
  booleans.  To use, simply:
 
-```
+
 	detection = require 'detectify'
 	
 	unless detection.hasDetermined
@@ -22,4 +22,3 @@ Detectify currently returns an object with 3 properties: hasDetermined, isNodeJS
 		console.log "We're in a browser."
 	else
 		console.log "We're in NodeJS.  Yay!"
-```
