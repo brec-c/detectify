@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/brec-c/detectify.png)](http://travis-ci.org/brec-c/detectify)
 #Detectify
 
 Laughably simple module to test if the current environment is NodeJS or a Browser.  This could be expanded upon in the
